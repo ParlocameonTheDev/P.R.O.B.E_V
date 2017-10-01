@@ -1,0 +1,23 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+
+<Computer id="playerComp" name="#PLAYERNAME#'s Workhorse" security="5" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+<LogoDaemon Name="#PLAYERNAME#'s Workhorse" ShowsTitle="true" TextColor="0, 220, 220, 200">
+<!--This currently does not work as of the current Hacknet Version: This computer is the sole property of: #PLAYERNAME#.-->
+<!--New note: As of the post Hacker Jam Patch, two bugs I reported are fixed, including the one above.-->
+<!--New new note: Meet failed again. The #PLAYERNAME# tag has not been fixed. -->
+Welcome to this Battlestation!
+
+It currently runs: HackMett v11!
+WUBBA LUBBA DUB DUB!
+  </LogoDaemon>
+
+  <trace time="30" />
+  <proxy time="30"/>
+  <firewall level="100" solution="DOH" additionalTime="2.0"/>
+  <portsForCrack val="1"/>
+  <admin type="none"/>
+
+<ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+
+</Computer>

@@ -1,0 +1,21 @@
+Error loading ExtensionInfo for extension in folder:
+Extensions/P.R.O.B.E_V
+Error details: 
+System.Xml.XmlException 
+ 
+'Element' is an invalid XmlNodeType. 
+ 
+Source : System.Xml 
+ 
+System.Xml.XmlException: 'Element' is an invalid XmlNodeType. 
+   at System.Xml.XmlReader.FinishReadElementContentAsXxx() 
+   at System.Xml.XmlReader.ReadElementContentAsString() 
+   at Hacknet.Extensions.ExtensionInfo.ReadExtensionInfo(String folderpath) 
+   at Hacknet.Screens.ExtensionsMenuScreen.AddExtensionSafe(String folderpath) 
+ 
+ 
+ 
+   at System.Xml.XmlReader.FinishReadElementContentAsXxx() 
+   at System.Xml.XmlReader.ReadElementContentAsString() 
+   at Hacknet.Extensions.ExtensionInfo.ReadExtensionInfo(String folderpath) 
+   at Hacknet.Screens.ExtensionsMenuScreen.AddExtensionSafe(String folderpath)

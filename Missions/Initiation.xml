@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Init">
+  <goals>
+    <!-- Goals here -->
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/Gaunlet1.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Cyron</sender>
+    <subject>Help us</subject>
+    <body>
+      The organization needs you again. A new threat has risen to destroy what we love forever.
+      We need your skills once again, my old friend. Anyways, #PLAYERNAME#, if you choose to rejoin, things will
+      never be the same......
+      You will help save the entire internet.
+      We must hurry. Reply to this email as soon as possible!
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>
