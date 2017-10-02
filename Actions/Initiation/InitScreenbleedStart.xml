@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<OnConnect target="initComp1">
+  <StartScreenBleedEffect AlertTitle="AGENT INITIATION PROCEDURES" CompleteAction="Actions/InitiationFail.xml" TotalDurationSeconds="360.0">Navigate through initiation network
+Reap rewards
+Complete the trials</StartScreenBleedEffect>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/DominionInitiation.ogg" />
+</OnConnect>
+
+</ConditionalActions>
