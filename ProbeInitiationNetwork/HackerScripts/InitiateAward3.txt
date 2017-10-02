@@ -1,0 +1,13 @@
+config delayHost playerComp $#%#$
+connect $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+delay 1.5 $#%#$
+writel $#%#$
+writel ================================== $#%#$
+writel WEBSERVERWORM.EXE SENT TO TARGET PC. $#%#$
+writel ================================== $#%#$
+writel $#%#$
+delay 3 $#%#$
+showRam $#%#$
+disconnect $#%#$
