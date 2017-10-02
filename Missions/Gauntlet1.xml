@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="intro1" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+
+</goals>
+<missionStart>loadConditionalActions:Actions/InitiationLoader.xml</missionStart>
+<nextMission>NONE</nextMission>
+
+<email>
+<sender>The Administration</sender>
+<subject>Initiation</subject>
+<body>
+Hello, #PLAYERNAME#.
+
+Your skills have proven to be invaluable towards our efforts. We have contacted you in light that you will help our cause, and join Dominion.
+
+If you wish to do so, we request you connect to the system linked below. This will lead to a set of trials that you must pass in order to be accepted into our group.
+
+Otherwise, we have no use of you, you never heard from us.
+
+-[DATA_EXPUNGED] Administration
+</body>
+
+<attachments>
+  <link comp="initComp1" />
+</attachments>
+</email>
+</mission>
