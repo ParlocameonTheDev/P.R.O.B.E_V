@@ -1,8 +1,0 @@
-<ConditionalActions>
-
-<OnAdminGained target="initComp2">
-  <LaunchHackScript Filepath="HackerScripts/InitiateAward2.txt" SourceComp="delayHost" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-  <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_Crack#" TargetComp="playerComp" TargetFolderpath="bin" />
-</OnAdminGained>
-
-</ConditionalActions>

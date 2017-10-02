@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="initComp3" name="DOMINION_GAUNTLET_NODE_X3" security="25" allowsDefaultBootModule="false" type="empty">
+
+  <ports>21, 22, 25, 80</ports>
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <trace time="-1" />
+  <firewall level="11" solution="opisafaggot" additionalTime="0.15"/>
+  <admin type="progress" resetPassword="false" isSuper="false"/>
+
+  <dlink target="initComp4" />
+
+</Computer>

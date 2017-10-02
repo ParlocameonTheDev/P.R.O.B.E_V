@@ -1,8 +1,0 @@
-<ConditionalActions>
-
-<OnAdminGained target="initComp1">
-  <LaunchHackScript Filepath="HackerScripts/InitiateAward1.txt" SourceComp="delayHost" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-  <AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
-</OnAdminGained>
-
-</ConditionalActions>

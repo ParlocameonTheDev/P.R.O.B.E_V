@@ -1,6 +1,6 @@
 # P.R.O.B.E_V
 This is the source code for my Hacknet Extension.
-**Collaborators**: Parlocameon & Aqua
+**Collaborators**: **Parlocameon** & **Aqua**
 
 LICENSE:
 You are free to look at the code for this software to help make your extension.

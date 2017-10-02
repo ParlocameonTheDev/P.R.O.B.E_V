@@ -1,8 +1,0 @@
-<ConditionalActions>
-
-<OnAdminGained target="initComp4">
-  <LaunchHackScript Filepath="HackerScripts/InitiateAward4.txt" SourceComp="delayHost" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-  <AddAsset FileName="ThemeChanger.exe" FileContents="#THEMECHANGER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
-</OnAdminGained>
-
-</ConditionalActions>
