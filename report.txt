@@ -5,30 +5,31 @@ START MISSION READ ERRORS:
 Error running start or end mission function of mission: Extensions/P.R.O.B.E_V/Missions/Gauntlet.xml
 Start Func: loadConditionalActions:Actions/Initiation/InitiationLoader.xml
 End Func: 
-System.IO.FileNotFoundException 
+System.Xml.XmlException 
  
-Could not find file 'C:\Program Files
-(x86)\Steam\steamapps\common\Hacknet\Extensions\P.R.O.B.E_V\Actions\Initiation\FTPCrackAd
-d.xml'.
+The 'OnAdminGained' start tag on line 3 position 2 does not match the end tag of 'OnConnect'.
+Line 7, position 3.
  
-Source : mscorlib 
+Source : System.Xml 
  
-System.IO.FileNotFoundException: Could not find file 'C:\Program Files
-(x86)\Steam\steamapps\common\Hacknet\Extensions\P.R.O.B.E_V\Actions\Initiation\FTPCrackAd
-d.xml'.
+System.Xml.XmlException: The 'OnAdminGained' start tag on line 3 position 2 does not match
+the end tag of 'OnConnect'. Line 7, position 3.
 
-File name: 'C:\Program Files
-(x86)\Steam\steamapps\common\Hacknet\Extensions\P.R.O.B.E_V\Actions\Initiation\FTPCrackAd
-d.xml'
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e) 
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args) 
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag) 
+   at System.Xml.XmlTextReaderImpl.ParseEndElement() 
+   at System.Xml.XmlTextReaderImpl.ParseElementContent() 
+   at System.Xml.XmlTextReaderImpl.Read() 
+   at
+   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
 
-   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
-   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights,
-   Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options,
-   SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath,
-   Boolean checkHost)
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
+   bodyContentReadAction)
 
-   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
-
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
    at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
    at Hacknet.SAAddConditionalActions.Trigger(Object os_obj) 
    at Hacknet.RunnableConditionalActions.Update(Single dt, Object os) 
@@ -38,14 +39,21 @@ d.xml'
  
  
  
-   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
-   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights,
-   Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options,
-   SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath,
-   Boolean checkHost)
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e) 
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args) 
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag) 
+   at System.Xml.XmlTextReaderImpl.ParseEndElement() 
+   at System.Xml.XmlTextReaderImpl.ParseElementContent() 
+   at System.Xml.XmlTextReaderImpl.Read() 
+   at
+   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
 
-   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
+   bodyContentReadAction)
 
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
    at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
    at Hacknet.SAAddConditionalActions.Trigger(Object os_obj) 
    at Hacknet.RunnableConditionalActions.Update(Single dt, Object os) 
