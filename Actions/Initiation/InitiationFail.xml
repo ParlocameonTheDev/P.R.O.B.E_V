@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly>
+      <LaunchHackScript Filepath="HackerScripts/InitiateFail.txt" SourceComp="delayHost" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    </Instantly>
+</ConditionalActions>

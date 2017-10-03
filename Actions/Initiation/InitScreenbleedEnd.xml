@@ -3,7 +3,7 @@
 <OnAdminGained target="initComp4">
   <CancelScreenbleedEffect />
   <RunFunction FunctionName="playCustomSong:Music/Ambience.ogg" />
-  <LoadMission MissionName="Missions/InitiationDone.xml" />
+  <LoadMission MissionName="Missions/WelcomeToDOH.xml" />
 </OnConnect>
 
 </ConditionalActions>

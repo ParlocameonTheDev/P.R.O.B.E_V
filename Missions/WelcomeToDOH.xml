@@ -1,0 +1,27 @@
+<mission id="welcomeToDOH" activeCheck="true">
+
+    <goals>
+
+    </goals>
+
+      <nextMission IsSilent="false">NONE</nextMission>
+
+      <email>
+
+
+        <sender>Cyron</sender>
+        <subject>Congrats</subject>
+
+        <body>
+        !
+        Wow, you actually made it.
+        Great job, now we need to get to work.
+        </body>
+
+        <attachments>
+            <link comp=""/>
+            <account comp="delayHost" user="admin" pass="ke"/>
+        </attachments>
+
+        </email>
+    </mission>
