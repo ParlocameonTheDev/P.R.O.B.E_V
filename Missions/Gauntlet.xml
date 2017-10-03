@@ -1,9 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="intro1" activeCheck="true" shouldIgnoreSenderVerification="false">
+<mission id="initGauntlet" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
 
 </goals>
-<missionStart>loadConditionalActions:Actions/InitiationLoader.xml</missionStart>
+<missionStart>loadConditionalActions:Actions/Initiation/InitiationLoader.xml</missionStart>
 <nextMission>NONE</nextMission>
 
 <email>
@@ -18,7 +18,7 @@ If you wish to do so, we request you connect to the system linked below. This wi
 
 Otherwise, we have no use of you, you never heard from us.
 
--[DATA_EXPUNGED] Administration
+-The Administration
 </body>
 
 <attachments>

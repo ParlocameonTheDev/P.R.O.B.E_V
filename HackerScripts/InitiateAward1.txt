@@ -2,6 +2,7 @@ config delayHost playerComp $#%#$
 connect $#%#$
 hideRam $#%#$
 clearTerminal $#%#$
+flash $#%#$
 delay 1.5 $#%#$
 writel $#%#$
 writel ================================ $#%#$

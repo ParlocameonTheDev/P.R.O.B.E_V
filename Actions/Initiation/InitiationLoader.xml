@@ -1,12 +1,12 @@
 <ConditionalActions>
 
 <Instantly>
-  <AddConditionalActions Filepath="Actions/FTPCrackAdd.xml"/>
-  <AddConditionalActions Filepath="Actions/WebCrackAdd.xml"/>
-  <AddConditionalActions Filepath="Actions/SMTPCrackAdd.xml"/>
-  <AddConditionalActions Filepath="Actions/ThemeChangerAdd.xml"/>
-  <AddConditionalActions Filepath="Actions/InitScreenbleedStart.xml"/>
-  <AddConditionalActions Filepath="Actions/InitScreenbleedEnd.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/FTPCrackAdd.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/WebCrackAdd.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/SMTPCrackAdd.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/ThemeChangerAdd.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/InitScreenbleedStart.xml"/>
+  <AddConditionalActions Filepath="Actions/Initiation/InitScreenbleedEnd.xml"/>
 </Instantly>
 
 </ConditionalActions>
