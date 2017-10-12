@@ -1,0 +1,26 @@
+<mission id="demo" activeCheck="true">
+
+    <goals>
+
+    </goals>
+
+      <nextMission IsSilent="false">NONE</nextMission>
+
+      <email>
+
+
+        <sender>Parlocameon</sender>
+        <subject>Good Job</subject>
+
+        <body>
+        .........
+        So.........the demo ends here.
+        Tell the real me if you liked it once you see him, heh.
+        Expect (a new build out in a few days) the unexpected.
+        </body>
+
+        <attachments>
+        </attachments>
+
+        </email>
+    </mission>

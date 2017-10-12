@@ -13,9 +13,9 @@ WUBBA LUBBA DUB DUB!
   </LogoDaemon>
 
   <trace time="30" />
-  <proxy time="30"/>
+  <proxy time="900"/>
   <firewall level="100" solution="DOH" additionalTime="2.0"/>
-  <portsForCrack val="1"/>
+  <portsForCrack val="9999999"/>
   <admin type="none"/>
 
 <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>

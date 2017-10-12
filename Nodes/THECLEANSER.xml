@@ -1,0 +1,24 @@
+<Computer id="THECLEANSER" name="DOH Cleansing Network">
+
+<trace time="130" />
+  <proxy time="90"/>
+  <firewall level="100" solution="CLEANSETHEFAILURES" additionalTime="2.0"/>
+  <portsForCrack val="7"/>
+  <admin type="progress"/>
+
+<ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+
+<file path="documents" name="philosophy.docx">
+
+Our philosophy, to take out our great enemy,
+is to cleanse those who fail our tests.
+We do this because, sadly, in real life,
+there are not many second chances.
+When we face enemies, failure is not an option.
+So to succeed in our goals, we must narrow our
+group to the survivors -
+The Winners.
+
+-----THE ADMINISTRATION-----
+</file>
+</Computer>

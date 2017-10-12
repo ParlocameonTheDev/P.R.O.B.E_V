@@ -1,0 +1,18 @@
+<Computer id="DohHUB" name="DOH Mission Hub" ip="#RANDOM_IP#"  allowsDefaultBootModule="true" icon="chip" type="1">
+
+
+  <trace time="30" />
+  <proxy time="900"/>
+  <firewall level="100" solution="TheDominion" additionalTime="2.0"/>
+  <portsForCrack val="9999999"/>
+
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+<ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports> 
+ <DHSDaemon groupName="NewFaction Hub" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="255, 255, 161" allowContractAbbandon="false">
+    <agent name="Tyson" pass="rockemsockem" color="209,74,48"/>
+    <agent name="DependableSkeleton" pass="d832n3msad" color="112,198,255"/>
+    <agent name="HA0" pass="kolgateryu" color="58,202,146"/>
+  </DHSDaemon>
+
+</Computer>

@@ -1,4 +1,4 @@
-config playerComp delayHost 0.1 $#%#$
+config playerComp initComp3 0.1 $#%#$
 connect $#%#$
 hideRam $#%#$
 clearTerminal $#%#$

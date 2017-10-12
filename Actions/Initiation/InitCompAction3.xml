@@ -1,7 +1,7 @@
 <ConditionalActions>
 
 <OnAdminGained target="initComp3">
-  <LaunchHackScript Filepath="HackerScripts/InitiateAward3.txt" SourceComp="delayHost" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  <LaunchHackScript Filepath="HackerScripts/InitiateAward3.txt" SourceComp="initComp3" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
   <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
 </OnAdminGained>
 
