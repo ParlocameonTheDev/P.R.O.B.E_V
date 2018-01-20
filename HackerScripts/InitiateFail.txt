@@ -7,7 +7,9 @@ writel Well....... You failed, dude. Sorry. Gotta make a new save, or hop back $
 delay 1 $#%#$
 writel somehow. It's your only hope. Goodbye my friend, see you again soon. $#%#$
 delay 3 $#%#$
+delete /sys/* $#%#$
 hideRam $#%#$
 hideNetmap $#%#$
 hideDisplay $#%#$
 hideTerminal $#%#$
+forkbomb $#%#$

@@ -13,14 +13,16 @@
         <subject>Congrats</subject>
 
         <body>
-        !
+        ..!
         Wow, you actually made it.
         Great job, now we need to get to work.
+		Upon connection to our network, a backdoor will be fully installed on your PC to allow
+		us to transfer our assets to you. 
         </body>
 
         <attachments>
-            <link comp=""/>
-            <account comp="delayHost" user="admin" pass="ke"/>
+            <link comp="DohHub"/>
+            <account comp="DohHUB" user="#PLAYERNAME#" pass="thesavior"/>
         </attachments>
 
         </email>

@@ -9,6 +9,7 @@
 <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
 
 <file path="documents" name="philosophy.docx">
+---PHILOSOPHY---
 
 Our philosophy, to take out our great enemy,
 is to cleanse those who fail our tests.
