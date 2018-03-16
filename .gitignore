@@ -3,3 +3,4 @@ warnings.txt
 report.txt
 *.swp
 *.note
+*.code-workspace
