@@ -14,7 +14,7 @@ WUBBA LUBBA DUB DUB!
 
   <trace time="30" />
   <proxy time="900"/>
-  <firewall level="100" solution="DOH" additionalTime="2.0"/>
+  <firewall level="100" solution="DOH_$ID=!#47418906548" additionalTime="2.0"/>
   <portsForCrack val="9999999"/>
   <admin type="none"/>
 

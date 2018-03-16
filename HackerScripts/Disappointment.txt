@@ -1,0 +1,65 @@
+config playerComp THECLEANSER 0.1 $#%#$
+
+hideRam $#%#$
+
+clearTerminal  $#%#$
+
+delay 1.5 $#%#$
+
+flash $#%#$
+
+writel So.  $#%#$
+
+delay 1.5 $#%#$
+
+flash $#%#$
+
+writel You thought you could just waltz in, get the best equipment, and get on your jolly way. $#%#$
+
+delay 3.5 $#%#$
+
+flash $#%#$
+
+delay 3 $#%#$
+
+writel No. You still need to prove yourself. That little mediocre excuse for a test? $#%#$
+
+flash $#%#$
+
+writel TIME $#%#$
+delay 0.5  $#%#$
+flash  $#%#$
+writel TO $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel GO
+delay 0.5
+flash $#%#$
+writel Back. To. Zero.
+delay 2 $#%#$
+clearTerminal $#%#$
+
+connect $#%#$
+
+openPort 21 $#%#$
+openPort 22 $#%#$
+openPort 25 $#%#$
+openPort 80 $#%#$
+openPort 1433 $#%#$
+openPort 104  $#%#$
+openPort 6881 $#%#$
+openPort 443 $#%#$
+openPort 192 554 $#%#$
+
+writel  [WARNING::] Critical System Failure. All ports open. System breach detected. $#%#$
+writel Backup server appears to be down, unable to start an emergency backup sequence. $#%#$
+delay 3 $#%#$
+writel [MALICIOUS PACKETS DETECTED:::::] Firewall running....attempts continuing....... $#%#$
+writel [FIREWALL SOLVED{DOH_$ID=!#47418906548}:::: FALLBACK PROXY FAILED...TRAFFIC OVERLOAD ON SSH PORT 22] $#%#$
+writel See you at the next test. $#%#$
+delay 2 $#%#$
+delete /bin * $#%#$
+
+writel BIN FOLDER REMOTELY CLEARED FROM *(*$@JD919398DJJAO))&% KERNEL FAILURE.....1R4CING i0 seconds $#%#$
+forkbomb $#%#$
+disconnect  $#%#$

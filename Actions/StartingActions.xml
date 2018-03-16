@@ -2,7 +2,7 @@
   
   <Instantly>
     <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
-    <!--<RunFunction FunctionName="setFaction:introfac" FunctionValue="0" />-->
+  
     
   </Instantly>
 
