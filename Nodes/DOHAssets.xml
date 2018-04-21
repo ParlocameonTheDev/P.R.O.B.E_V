@@ -1,0 +1,12 @@
+<Computer id="dohAssetHub1" name="Dominion Assets Server - #1" ip="dohdeep23THA.ponion" security="5" allowsDefaultBootModule="false" icon="Psylance" type="1" > 
+<ports>211</ports>
+<portsForCrack val="999999"/>
+
+<firewall level="6000" solution="LITERALLYFUCKINGIMPOSSIBLETOBREAK!#%#$%^*#$%^*#@$%^*(2469274012" additionalTime="100.0"/>
+<proxy time="2000" />
+<admin type="fast" resetPassword="true" isSuper="true" />
+
+ <CustomConnectDisplayDaemon />
+ <!--Note: Make a logo for the final version, use -->
+<!--LogoCustomConnectDisplayDaemon logo="Logo.png" title="Logo.png" overdrawLogo="true" buttonAlignment="left" /-->
+</Computer>

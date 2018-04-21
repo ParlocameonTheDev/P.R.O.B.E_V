@@ -32,10 +32,10 @@ flash  $#%#$
 writel TO $#%#$
 delay 0.5 $#%#$
 flash $#%#$
-writel GO
-delay 0.5
+writel GO $#%#$
+delay 0.5 $#%#$
 flash $#%#$
-writel Back. To. Zero.
+writel Back. To. Zero. $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
 
