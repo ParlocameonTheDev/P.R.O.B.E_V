@@ -12,8 +12,8 @@
  <DHSDaemon groupName="Dominion Of Hackers" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="255, 255, 161" allowContractAbbandon="false">
     <agent name="#PLAYERNAME#" pass="thesavior" color="21,23,165"/>
     <agent name="Cyron" pass="ROMandTERRY" color="168,0,0"/>
-    <agent name="DependableSkeleton" pass="d832n3msad" color="112,198,255"/>
-    <agent name="HA0" pass="kolgateryu" color="58,202,146"/>
+    <agent name="Eon0theWise" pass="youreahairywizard" color="112,198,255"/>
+    <agent name="Albert" pass="kolgateryu" color="58,202,146"/>
   </DHSDaemon>
 
 </Computer>

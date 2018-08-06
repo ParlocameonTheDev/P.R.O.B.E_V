@@ -4,10 +4,10 @@
 
     </goals>
 
+    <missionStart>loadConditionalActions:Actions/DohBegins.xml</missionStart>
       <nextMission IsSilent="false">NONE</nextMission>
 
       <email>
-
 
         <sender>Cyron</sender>
         <subject>Congrats</subject>
@@ -22,6 +22,7 @@
 
         <attachments>
             <link comp="DohHub"/>
+            <link comp="dohAssetHub1"/>
             <account comp="DohHUB" user="#PLAYERNAME#" pass="thesavior"/>
         </attachments>
 

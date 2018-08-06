@@ -5,7 +5,19 @@
 <firewall level="6000" solution="LITERALLYFUCKINGIMPOSSIBLETOBREAK!#%#$%^*#$%^*#@$%^*(2469274012" additionalTime="100.0"/>
 <proxy time="2000" />
 <admin type="fast" resetPassword="true" isSuper="true" />
+<account username="#PLAYERNAME" password="xxGamerXxNoScoperer" type="ALL" />
 
+<file path="home" name="To all employees">THIS MEANS YOU JERRY
+IM TIRED OF YOU LEAVING FUCKING "ma nam jeff" MEMES ALL OVER THIS FUCKING SERVER!
+ARE YOU BLOODY MENTAL? GOD. AND IF I SEE FURRY PORN IN YOUR SEARCH HISTORY ONE MORE TIME,
+I SWEAR.....</file>
+
+
+<file path="bin" name="SSH_Brute_v1.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTP_Sprinter_B1.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="NOTE">We felt kind of bad for you, after our backdoor notified us of the hack that breached your system.
+Who has that kind of power? Anyways, we could only recover one of the exes. Sorry about that. But, we got you something that may just please you.
+Check out FTP Sprinter! - Cyron</file>
  <CustomConnectDisplayDaemon />
  <!--Note: Make a logo for the final version, use -->
 <!--LogoCustomConnectDisplayDaemon logo="Logo.png" title="Logo.png" overdrawLogo="true" buttonAlignment="left" /-->

@@ -1,6 +1,7 @@
 config playerComp THECLEANSER 0.1 $#%#$
 
 hideRam $#%#$
+hideTerminal $#%#$
 
 clearTerminal  $#%#$
 
@@ -49,7 +50,8 @@ openPort 1433 $#%#$
 openPort 104  $#%#$
 openPort 6881 $#%#$
 openPort 443 $#%#$
-openPort 192 554 $#%#$
+openPort 192 $#%#$
+openPort 554 $#%#$
 
 writel  [WARNING::] Critical System Failure. All ports open. System breach detected. $#%#$
 writel Backup server appears to be down, unable to start an emergency backup sequence. $#%#$
@@ -60,6 +62,18 @@ writel See you at the next test. $#%#$
 delay 2 $#%#$
 delete /bin * $#%#$
 
-writel BIN FOLDER REMOTELY CLEARED FROM *(*$@JD919398DJJAO))&% KERNEL FAILURE.....1R4CING i0 seconds $#%#$
+writel BIN FOLDER REMOTELY CLEARED FROM *(*$@JD919398DJJAO))&% KERNEL FAILURE.....1R4CING in i0 seconds $#%#$
 forkbomb $#%#$
+
+closePort 21 $#%#$
+closePort 22 $#%#$
+closePort 25 $#%#$
+closePort 80 $#%#$
+closePort 1433 $#%#$
+closePort 104  $#%#$
+closePort 6881 $#%#$
+closePort 443 $#%#$
+closePort 192 $#%#$
+closePort 554 $#%#$
+
 disconnect  $#%#$
